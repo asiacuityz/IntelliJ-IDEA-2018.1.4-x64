@@ -1,0 +1,9 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="at com.xxl.job.core.rpc.netcom.NetComClientProxy$1.invoke(NetComClientProxy.java:64) ~[xxl-job-core-1.9.2.jar:na]" />
+      </list>
+    </option>
+  </component>
+</application>

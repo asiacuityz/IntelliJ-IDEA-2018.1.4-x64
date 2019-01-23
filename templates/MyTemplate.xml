@@ -1,0 +1,103 @@
+<templateSet group="MyTemplate">
+  <template name="aln" value="List $VAR1$  = new ArrayList();" description="创建ArrayList" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ap" value="@Autowired&#10;private $var1$ $end$;" description="自动注入代码" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="strnull" value="if (StringUtils.isBlank($VAR1$)) {  &#10;    $end$&#10;}" description="字符串判空" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="strnotnull" value="if (StringUtils.isNotBlank($VAR1$)) {&#10;    $end$&#10;}" description="字符串判空" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="psid" value="private static final long serialVersionUID = 1L;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="psfsc" value="/**&#10; * $Description$  &#10; *&#10; **/&#10;public static final String $var1$ = $var2$;" description="静态字符" toReformat="false" toShortenFQNames="true">
+    <variable name="Description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="psfic" value="/**&#10; * $Description$ &#10; * &#10; **/&#10;public static final int $var1$ = $var2$;" description="静态整形" toReformat="false" toShortenFQNames="true">
+    <variable name="Description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="psc" value="/**&#10; *$Description$&#10; *&#10; **/&#10;private String $var1$ ;" description="字符串" toReformat="false" toShortenFQNames="true">
+    <variable name="Description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ps" value="private String $var1$ ;" description="字符串不带注释" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="plog" value="private static final Logger logger = LoggerFactory.getLogger($NAME$.class);&#10;$end$" description="日志注入" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="psm" value="@RequestMapping(&quot;${VAR1}&quot;)&#10;  @ResponseBody&#10;  public String ${VAR2} {&#10;        ${end}&#10;    return null;&#10;  }" description="controller方法" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="clog" value="console.log($VAR$);" description="js打日志" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ajax" value="    $.ajax({&#10;        url : $VAR1$,&#10;        type : &quot;$VAR2$&quot;,&#10;        //dataType : &quot;json&quot;,&#10;        data : $VAR3$,&#10;        cache : false,&#10;        success : function(data, textStatus, jqXHR) {&#10;            if ('success' == textStatus) {&#10;                &#10;            }&#10;        },&#10;        error : function(XMLHttpRequest, textStatus, errorThrown) {&#10;            &#10;        }&#10;    });" description="ajax模板" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="/**&#10;* $var1$&#10;* &lt;p&gt;DESCRIPTION:&lt;/p&gt;&#10;*&#10;* @author AsiaCui&#10;* @version: 1.0.0&#10;* @create ${YEAR}-${MONTH}-${DAY} ${TIME}&#10;*/" description="类的注释" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="*" value="*&#10; * @Description: $description$&#10; * @Param: $params$&#10; * @return: $returns$&#10;*/ " description="方法的注释" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="returns" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

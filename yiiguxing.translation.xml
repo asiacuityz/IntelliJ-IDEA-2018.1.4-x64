@@ -1,0 +1,67 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="ensure Capacity" />
+      <item value="transient" />
+      <item value="The {@code String} class represents character strings. All string literals in Java programs, such as {@code &quot;abc&quot;}, are implemented as instances of this class. &lt;p&gt; Strings are constant; their values cannot be changed after they are created. String buffers support mutable strings. Because String objects are immutable they can be shared. For example:" />
+      <item value="Handler" />
+      <item value="Approximates Eureka zones from a host name. This method approximates the zone to be everything after the first &quot;.&quot; in the host name." />
+      <item value="命令" />
+      <item value="Past History" />
+      <item value="surefire" />
+      <item value="detected" />
+      <item value="Annotation which indicates that a method parameter should be bound to a web request parameter. &lt;p&gt;Supported for annotated handler methods in Spring MVC and Spring WebFlux as follows: &lt;ul&gt; &lt;li&gt;In Spring MVC, &quot;request parameters&quot; map to query parameters, form data, and parts in multipart requests. This is because the Servlet API combines query parameters and form data into a single map called &quot;parameters&quot;, and that includes automatic parsing of the request body. &lt;li&gt;In Spring WebFlux, &quot;request parameters&quot; map to query parameters only. To work with all 3, query, form data, and multipart data, you can use data binding to a command object annotated with {@link ModelAttribute}. &lt;/ul&gt; &lt;p&gt;If the method parameter type is {@link Map} and a request parameter name is specified, then the request parameter value is converted to a {@link Map} assuming an appropriate conversion strategy is available. &lt;p&gt;If the method parameter is {@link java.util.Map Map&amp;lt;String, String&amp;gt;} or {@link org.springframework.util.MultiValueMap MultiValueMap&amp;lt;String, String&amp;gt;} and a parameter name is not specified, then the map parameter is populated with all request parameter names and values." />
+      <item value="Performs a final update on the digest using the specified array of bytes, then completes the digest computation. That is, this method first calls {@link #update(byte[]) update(input)}, passing the &lt;i&gt;input&lt;/i&gt; array to the {@code update} method, then calls {@link #digest() digest()}." />
+      <item value="digest" />
+      <item value="Matrix" />
+      <item value="failures" />
+      <item value="You'll need to remove the spaces from the html entities below" />
+      <item value="Annotation indicating a method parameter should be bound to the body of the web request. The body of the request is passed through an {@link HttpMessageConverter} to resolve the method argument depending on the content type of the request. Optionally, automatic validation can be applied by annotating the argument with {@code @Valid}. &lt;p&gt;Supported for annotated handler methods in Servlet environments." />
+      <item value="病史" />
+      <item value="慢性病" />
+      <item value="Radiation" />
+      <item value="原因" />
+      <item value="treatment History Groups" />
+      <item value="Custom Main Symptom Dectorator" />
+      <item value="Retention" />
+      <item value="注解" />
+      <item value="Whether body content is required. &lt;p&gt;Default is {@code true}, leading to an exception thrown in case there is no body content. Switch this to {@code false} if you prefer {@code null} to be passed when the body content is {@code null}. @since 3.2" />
+      <item value="Set the {@code value} and expiration {@code timeout} for {@code key}." />
+      <item value="Overwrite parts of {@code key} starting at the specified {@code offset} with given {@code value}." />
+      <item value="offset" />
+      <item value="unit must not be" />
+      <item value="url tname" />
+      <item value="The unique id has 64bits (long), default allocated as blow:&lt;br&gt; &lt;li&gt;sign: The highest bit is 0 &lt;li&gt;delta seconds: The next 28 bits, represents delta seconds since a customer epoch(2016-05-20 00:00:00.000). Supports about 8.7 years until to 2024-11-20 21:24:16 &lt;li&gt;worker id: The next 22 bits, represents the worker's id which assigns based on database, max id is about 420W &lt;li&gt;sequence: The next 13 bits, represents a sequence within the same second, max for 8192/s&lt;br&gt;&lt;br&gt; &lt;p&gt;" />
+      <item value="Schedules the specified task for execution at the specified time. If the time is in the past, the task is scheduled for immediate execution." />
+      <item value="Schedules the specified task for repeated &lt;i&gt;fixed-delay execution&lt;/i&gt;, beginning after the specified delay. Subsequent executions take place at approximately regular intervals separated by the specified period. &lt;p&gt;In fixed-delay execution, each execution is scheduled relative to the actual execution time of the previous execution. If an execution is delayed for any reason (such as garbage collection or other background activity), subsequent executions will be delayed as well. In the long run, the frequency of execution will generally be slightly lower than the reciprocal of the specified period (assuming the system clock underlying &lt;tt&gt;Object.wait(long)&lt;/tt&gt; is accurate). &lt;p&gt;Fixed-delay execution is appropriate for recurring activities that require &quot;smoothness.&quot; In other words, it is appropriate for activities where it is more important to keep the frequency accurate in the short run than in the long run. This includes most animation tasks, such as blinking a cursor at regular intervals. It also includes tasks wherein regular activity is performed in response to human input, such as automatically repeating a character as long as a key is held down." />
+      <item value="cluster" />
+      <item value="Component Scan" />
+      <item value="COMPATIBLE" />
+      <item value="亲属" />
+      <item value="疾病" />
+      <item value="金属" />
+      <item value="痛" />
+      <item value="腹胀" />
+      <item value="主诉症状" />
+      <item value="症状" />
+      <item value="伴随症状" />
+      <item value="主诉疾病" />
+      <item value="形状" />
+      <item value="Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution." />
+      <item value="Creates and executes a periodic action that becomes enabled first after the given initial delay, and subsequently with the given period; that is executions will commence after {@code initialDelay} then {@code initialDelay+period}, then {@code initialDelay + 2 period}, and so on. If any execution of the task encounters an exception, subsequent executions are suppressed. Otherwise, the task will only terminate via cancellation or termination of the executor. If any execution of this task takes longer than its period, then subsequent executions may start late, but will not concurrently execute. @param command the task to execute @param initialDelay the time to delay first execution @param period the period between successive executions @param unit the time unit of the initialDelay and period parameters @return a ScheduledFuture representing pending completion of the task, and whose {@code get()} method will throw an exception upon cancellation @throws RejectedExecutionException if the task cannot be scheduled for execution @throws NullPointerException if command is null @throws IllegalArgumentException if period less than or equal to zero /" />
+      <item value="period the period between successive executions" />
+      <item value="initialDelay the time to delay first execution" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="91" />
+        <entry key="ENGLISH" value="92" />
+        <entry key="DANISH" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="foldOriginal" value="true" />
+    <option name="ignoreRegExp" value="\*" />
+  </component>
+</application>
