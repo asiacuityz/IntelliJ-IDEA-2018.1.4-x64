@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="CURRENT" />
       <item value="This can be the class name or a primitive. The value will override the data type as read from the class property." />
       <item value="primitive" />
       <item value="ensure Capacity" />
@@ -50,12 +51,11 @@
       <item value="主诉疾病" />
       <item value="形状" />
       <item value="Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution." />
-      <item value="Creates and executes a periodic action that becomes enabled first after the given initial delay, and subsequently with the given period; that is executions will commence after {@code initialDelay} then {@code initialDelay+period}, then {@code initialDelay + 2 period}, and so on. If any execution of the task encounters an exception, subsequent executions are suppressed. Otherwise, the task will only terminate via cancellation or termination of the executor. If any execution of this task takes longer than its period, then subsequent executions may start late, but will not concurrently execute. @param command the task to execute @param initialDelay the time to delay first execution @param period the period between successive executions @param unit the time unit of the initialDelay and period parameters @return a ScheduledFuture representing pending completion of the task, and whose {@code get()} method will throw an exception upon cancellation @throws RejectedExecutionException if the task cannot be scheduled for execution @throws NullPointerException if command is null @throws IllegalArgumentException if period less than or equal to zero /" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="93" />
-        <entry key="ENGLISH" value="94" />
+        <entry key="CHINESE" value="94" />
+        <entry key="ENGLISH" value="95" />
         <entry key="DANISH" value="1" />
       </map>
     </option>
