@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="file Suffix" />
       <item value="CURRENT" />
       <item value="This can be the class name or a primitive. The value will override the data type as read from the class property." />
       <item value="primitive" />
@@ -50,12 +51,11 @@
       <item value="伴随症状" />
       <item value="主诉疾病" />
       <item value="形状" />
-      <item value="Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="94" />
-        <entry key="ENGLISH" value="95" />
+        <entry key="CHINESE" value="95" />
+        <entry key="ENGLISH" value="96" />
         <entry key="DANISH" value="1" />
       </map>
     </option>
