@@ -1,13 +1,17 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The largest possible table capacity. This value must be exactly 1&lt;&lt;30 to stay within Java array allocation and indexing bounds for power of two table sizes, and is further required because the top two bits of 32bit hash fields are used for control purposes." />
+      <item value="CAPACITY" />
+      <item value="transient" />
+      <item value="This implementation iterates over &lt;tt&gt;entrySet()&lt;/tt&gt; searching for an entry with the specified value. If such an entry is found, &lt;tt&gt;true&lt;/tt&gt; is returned. If the iteration terminates without finding such an entry, &lt;tt&gt;false&lt;/tt&gt; is returned. Note that this implementation requires linear time in the size of the map." />
+      <item value="Sole" />
       <item value="failure" />
       <item value="file Suffix" />
       <item value="CURRENT" />
       <item value="This can be the class name or a primitive. The value will override the data type as read from the class property." />
       <item value="primitive" />
       <item value="ensure Capacity" />
-      <item value="transient" />
       <item value="The {@code String} class represents character strings. All string literals in Java programs, such as {@code &quot;abc&quot;}, are implemented as instances of this class. &lt;p&gt; Strings are constant; their values cannot be changed after they are created. String buffers support mutable strings. Because String objects are immutable they can be shared. For example:" />
       <item value="Handler" />
       <item value="Approximates Eureka zones from a host name. This method approximates the zone to be everything after the first &quot;.&quot; in the host name." />
@@ -47,15 +51,11 @@
       <item value="金属" />
       <item value="痛" />
       <item value="腹胀" />
-      <item value="主诉症状" />
-      <item value="症状" />
-      <item value="伴随症状" />
-      <item value="主诉疾病" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="96" />
-        <entry key="ENGLISH" value="97" />
+        <entry key="CHINESE" value="101" />
+        <entry key="ENGLISH" value="102" />
         <entry key="DANISH" value="1" />
       </map>
     </option>
