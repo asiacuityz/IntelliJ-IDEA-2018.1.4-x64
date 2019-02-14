@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="concurrent" />
       <item value="Dummy value to associate with an Object in the backing Map" />
       <item value="Cancelled" />
       <item value="Indicates how often (in seconds) the eureka client needs to send heartbeats to eureka server to indicate that it is still alive. If the heartbeats are not received for the period specified in leaseExpirationDurationInSeconds, eureka server will remove the instance from its view, there by disallowing traffic to this instance. Note that the instance could still not take traffic if it implements HealthCheckCallback and then decides to make itself unavailable." />
@@ -50,12 +51,11 @@
       <item value="Component Scan" />
       <item value="COMPATIBLE" />
       <item value="亲属" />
-      <item value="疾病" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="105" />
+        <entry key="CHINESE" value="105" />
+        <entry key="ENGLISH" value="106" />
         <entry key="DANISH" value="1" />
       </map>
     </option>
