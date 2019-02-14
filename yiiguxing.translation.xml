@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Dummy value to associate with an Object in the backing Map" />
       <item value="Cancelled" />
       <item value="Indicates how often (in seconds) the eureka client needs to send heartbeats to eureka server to indicate that it is still alive. If the heartbeats are not received for the period specified in leaseExpirationDurationInSeconds, eureka server will remove the instance from its view, there by disallowing traffic to this instance. Note that the instance could still not take traffic if it implements HealthCheckCallback and then decides to make itself unavailable." />
       <item value="The largest possible table capacity. This value must be exactly 1&lt;&lt;30 to stay within Java array allocation and indexing bounds for power of two table sizes, and is further required because the top two bits of 32bit hash fields are used for control purposes." />
@@ -50,12 +51,11 @@
       <item value="COMPATIBLE" />
       <item value="亲属" />
       <item value="疾病" />
-      <item value="金属" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="104" />
+        <entry key="CHINESE" value="104" />
+        <entry key="ENGLISH" value="105" />
         <entry key="DANISH" value="1" />
       </map>
     </option>
