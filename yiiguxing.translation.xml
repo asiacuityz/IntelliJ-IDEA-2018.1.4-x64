@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="bubble" />
       <item value="concurrent" />
       <item value="Dummy value to associate with an Object in the backing Map" />
       <item value="Cancelled" />
@@ -50,12 +51,11 @@
       <item value="cluster" />
       <item value="Component Scan" />
       <item value="COMPATIBLE" />
-      <item value="亲属" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="105" />
-        <entry key="ENGLISH" value="106" />
+        <entry key="CHINESE" value="106" />
+        <entry key="ENGLISH" value="107" />
         <entry key="DANISH" value="1" />
       </map>
     </option>
