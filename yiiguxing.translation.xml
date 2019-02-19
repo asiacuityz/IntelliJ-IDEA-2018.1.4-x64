@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Modification" />
       <item value="bubble" />
       <item value="concurrent" />
       <item value="Dummy value to associate with an Object in the backing Map" />
@@ -50,12 +51,11 @@
       <item value="Schedules the specified task for repeated &lt;i&gt;fixed-delay execution&lt;/i&gt;, beginning after the specified delay. Subsequent executions take place at approximately regular intervals separated by the specified period. &lt;p&gt;In fixed-delay execution, each execution is scheduled relative to the actual execution time of the previous execution. If an execution is delayed for any reason (such as garbage collection or other background activity), subsequent executions will be delayed as well. In the long run, the frequency of execution will generally be slightly lower than the reciprocal of the specified period (assuming the system clock underlying &lt;tt&gt;Object.wait(long)&lt;/tt&gt; is accurate). &lt;p&gt;Fixed-delay execution is appropriate for recurring activities that require &quot;smoothness.&quot; In other words, it is appropriate for activities where it is more important to keep the frequency accurate in the short run than in the long run. This includes most animation tasks, such as blinking a cursor at regular intervals. It also includes tasks wherein regular activity is performed in response to human input, such as automatically repeating a character as long as a key is held down." />
       <item value="cluster" />
       <item value="Component Scan" />
-      <item value="COMPATIBLE" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="106" />
-        <entry key="ENGLISH" value="107" />
+        <entry key="CHINESE" value="107" />
+        <entry key="ENGLISH" value="108" />
         <entry key="DANISH" value="1" />
       </map>
     </option>
