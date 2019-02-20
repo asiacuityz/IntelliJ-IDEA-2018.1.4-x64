@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the time unit for the {@code keepAliveTime} argument" />
+      <item value="when the number of threads is greater than the core, this is the maximum time that excess idle threads will wait for new tasks before terminating." />
       <item value="Modification" />
       <item value="bubble" />
       <item value="concurrent" />
@@ -49,13 +51,11 @@
       <item value="The unique id has 64bits (long), default allocated as blow:&lt;br&gt; &lt;li&gt;sign: The highest bit is 0 &lt;li&gt;delta seconds: The next 28 bits, represents delta seconds since a customer epoch(2016-05-20 00:00:00.000). Supports about 8.7 years until to 2024-11-20 21:24:16 &lt;li&gt;worker id: The next 22 bits, represents the worker's id which assigns based on database, max id is about 420W &lt;li&gt;sequence: The next 13 bits, represents a sequence within the same second, max for 8192/s&lt;br&gt;&lt;br&gt; &lt;p&gt;" />
       <item value="Schedules the specified task for execution at the specified time. If the time is in the past, the task is scheduled for immediate execution." />
       <item value="Schedules the specified task for repeated &lt;i&gt;fixed-delay execution&lt;/i&gt;, beginning after the specified delay. Subsequent executions take place at approximately regular intervals separated by the specified period. &lt;p&gt;In fixed-delay execution, each execution is scheduled relative to the actual execution time of the previous execution. If an execution is delayed for any reason (such as garbage collection or other background activity), subsequent executions will be delayed as well. In the long run, the frequency of execution will generally be slightly lower than the reciprocal of the specified period (assuming the system clock underlying &lt;tt&gt;Object.wait(long)&lt;/tt&gt; is accurate). &lt;p&gt;Fixed-delay execution is appropriate for recurring activities that require &quot;smoothness.&quot; In other words, it is appropriate for activities where it is more important to keep the frequency accurate in the short run than in the long run. This includes most animation tasks, such as blinking a cursor at regular intervals. It also includes tasks wherein regular activity is performed in response to human input, such as automatically repeating a character as long as a key is held down." />
-      <item value="cluster" />
-      <item value="Component Scan" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="107" />
-        <entry key="ENGLISH" value="108" />
+        <entry key="CHINESE" value="109" />
+        <entry key="ENGLISH" value="110" />
         <entry key="DANISH" value="1" />
       </map>
     </option>
